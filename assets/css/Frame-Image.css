@@ -1,0 +1,12 @@
+.frame-image { 
+    border: 5px solid #333; 
+    padding: auto; 
+    width: 250px; 
+    /* float: left; */
+  }
+  
+  .frame-image img { 
+    display: block; 
+    margin-bottom: 5px; 
+    width: 100%; 
+  }
