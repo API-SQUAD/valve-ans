@@ -1,6 +1,7 @@
 <?php
 session_start();
 $_SESSION['lang'] = NULL;
+error_reporting(0);
 ?>
 
 <!DOCTYPE html>
