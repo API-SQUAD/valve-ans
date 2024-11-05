@@ -988,7 +988,7 @@ else {
             <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $lincervalve; ?></a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $linpfavalve; ?></a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $conwater; ?></a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $$instrumentation; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $instrumentation; ?></a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Petrochemical Valve</a></li>
           </ul>
         </div>
