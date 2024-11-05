@@ -968,34 +968,34 @@ else {
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+          <h4><?php echo $usefullinks; ?></h4>
           <ul>
-            <li> <i class="bi bi-chevron-right"></i><a href="#hero" class="active">Home</a></li>
-            <li> <i class="bi bi-chevron-right"></i><a href="#about">About</a></li>
-            <li> <i class="bi bi-chevron-right"></i><a href="#services">Services</a></li>
-            <li> <i class="bi bi-chevron-right"></i><a href="#gallery">Gallery</a></li>
-            <li> <i class="bi bi-chevron-right"></i><a href="#certi">Certification</a></li>
-            <li> <i class="bi bi-chevron-right"></i><a href="#pc"><?php echo $pj; ?></a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#hero" class="active"><?php echo $home_foot; ?></a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#about"><?php echo $about_foot; ?></a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#services"><?php echo $services_foot; ?></a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#gallery"><?php echo $gallery_foot; ?></a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#certi">C<?php echo $certification_foot; ?></a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#pc"><?php echo $project_customers; ?></a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Product</h4>
+          <h4><?php echo $ourproducts; ?></h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Oil & Gas Valve</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Petrochemical Valve</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Power Plant & Mining Valve</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Lining Ceramic Valve</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Lining PFA Valve</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Control Water Product</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Instrumentation</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $oil_gasvalve; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $petrochemical_valve; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $powpla_minvalve; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $lincervalve; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $linpfavalve; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $conwater; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $$instrumentation; ?></a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Petrochemical Valve</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-12">
-          <h4>Follow Us</h4>
-          <p>Follow our social media to get other important information</p>
+          <h4><?php echo $followus; ?></h4>
+          <p><?php echo $followusexp; ?></p>
           <div class="social-links d-flex">
             <a href="https://www.facebook.com/ptamanahnusanterasejahtera"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/ansvalve"><i class="bi bi-instagram"></i></a>

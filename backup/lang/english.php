@@ -101,5 +101,22 @@ $callus                   = "Call Us";
 $callusexp                = "(021) 29460553";
 $emailus                  = "Email Us";
 $emailusexp               = "customer.service@valve-ans.com";
-
+// Footer 
+$usefullinks              = "Useful Links";
+$home_foot                = "Home";
+$about_foot               = "About";
+$services_foot            = "Services";
+$gallery_foot             = "Gallery";
+$certification_foot       = "Certifications";
+$project_customers        = "Projects & Customers";
+$ourproducts              = "Our Products";
+$oil_gasvalve             = "Oil & Gas Valve";
+$petrochemical_valve      = "Petrochemical Valve";
+$powpla_minvalve          = "Power Plant & Mining Valve";
+$lincervalve              = "Lining Ceramic Valve";
+$linpfavalve              = "Lining PFA Valve";
+$conwater                 = "Control Water Product";
+$instrumentation          = "Instrumentation";
+$followus                 = "Follow Us";
+$followusexp              = "Follow Our Social Media to Get Other Important Information";
 ?>

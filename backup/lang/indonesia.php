@@ -100,5 +100,22 @@ $callus                   = "Hubungi Kami";
 $callusexp                = "(021) 29460553";
 $emailus                  = "Email Kami";
 $emailusexp               = "customer.service@valve-ans.com";
-
+// Footer
+$usefullinks              = "Link Bermanfaat";
+$home_foot                = "Beranda";
+$about_foot               = "Tentang Kami";
+$services_foot            = "Pelayanan Kami";
+$gallery_foot             = "Galeri";
+$certification_foot       = "Sertifikasi";
+$project_customers        = "Proyek & Konsumen";
+$ourproducts              = "Produk Kami";
+$oil_gasvalve             = "Valve Minyak & Gas";
+$petrochemical_valve      = "Valve Petrokimia";
+$powpla_minvalve          = "Valve Pembangkit Listrik & Pertambangan";
+$lincervalve              = "Valve Lapisan Keramik";
+$linpfavalve              = "Valve Lapisan PFA";
+$conwater                 = "Produk Water Control";
+$instrumentation          = "Instrumentasi";
+$followus                 = "Follow Kami";
+$followusexp              = "Follow Media Sosial Kami untuk Informasi Penting Lainnya";
 ?>
