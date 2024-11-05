@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['lang'] = NULL;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,6 +26,17 @@
 </head>
 
 <body class="index-page">
+<?php
+if($_GET['lang'] == "en") {
+  $a = include "lang/english.php";
+} 
+else if ($_GET['lang'] == "id") {
+  $a = include "lang/indonesia.php";
+} 
+else {
+  $a = include "lang/indonesia.php";
+}
+?>
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
@@ -31,12 +47,12 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#certi">Certification</a></li>
-          <li><a href="#pc">Project & Customer</a></li>
+          <li><a href="#hero" class="active"><?php echo $home; ?></a></li>
+          <li><a href="#about"><?php echo $about; ?></a></li>
+          <li><a href="#services"><?php echo $service; ?></a></li>
+          <li><a href="#gallery"><?php echo $gallery; ?></a></li>
+          <li><a href="#certi"><?php echo $certification; ?></a></li>
+          <li><a href="#pc"><?php echo $project; ?></a></li>
           <li class="dropdown"><a href="cast.html"><span>Product</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li class="dropdown"><a href="cast.html"><span>ANS Cast Steel</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -66,7 +82,27 @@
               </li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact"><?php echo $contact; ?></a></li>
+          <form name="form1" method="post" action="?lang=">
+            <select name="menu1" class="rounded shadow" style="font-size: 11px;" onChange="MM_jumpMenu('parent',this,0)">
+            <?php
+            if(($_GET['lang'] == "id") || (empty($_GET['lang']))) {
+            ?>
+            <option value="?lang=id">Indonesian</option>
+            <option value="?lang=en">English</option>
+
+            <?php
+            } else if ($_GET['lang'] == "en"){
+            ?>
+            <option value="?lang=en">English</option>
+            <option value="?lang=id">Indonesian</option>
+    
+            <?php
+            } // end else
+            ?>
+            </select>
+          </form>
+
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -988,6 +1024,12 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script language="JavaScript" type="text/JavaScript">
+	function MM_jumpMenu(targ,selObj,restore){ //v3.0
+    eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+	if (restore) selObj.selectedIndex=0;
+	}
+</script>
 
 </body>
 
