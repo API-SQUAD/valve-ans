@@ -23,6 +23,14 @@ $_SESSION['lang'] = NULL;
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/button.css" rel="stylesheet">
+  <style>
+    #box{
+      width:auto;
+      height:0px;
+      overflow:hidden;
+    }
+  </style>
 </head>
 
 <body class="index-page">
@@ -635,7 +643,10 @@ else {
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="container section-title" data-aos="fade-up">
           <h2>ANS PROJECT REFERENCE</h2>
+        <button onclick="slideUp('box');" class="custom-btn btn-12"><span>Click!</span><span>Read Less</span></button>
+        <button onclick="slideDown('box');" class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
         </div>
+        <div id = "box">
         <div class="row">
           <div class="col-lg-12 pt-4 pt-lg-0 content">
             <div class="skills-content skills-animation">
@@ -663,17 +674,17 @@ else {
                   <tr>
                     <th scope="row">2</th>
                     <td>PEMBANGKITAN JAWA-BALI, PT</td>
-                    <td>PJB UJLJ Bangka                    </td>
-                    <td>Boiler CCTV Furnace                    </td>
-                    <td>Furnace Camera Boiler Cooling System & Electric Control                    </td>
+                    <td>PJB UJLJ Bangka</td>
+                    <td>Boiler CCTV Furnace</td>
+                    <td>Furnace Camera Boiler Cooling System & Electric Control</td>
                     <td>2020</td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
-                    <td>YASA INDUSTRI NUSANTARA, PT                    </td>
-                    <td>Pertamina RU VI Balongan                    </td>
-                    <td>Water Treatment Plant                    </td>
-                    <td>Gate, Globe, Check dan Butterfly Valve                    </td>
+                    <td>YASA INDUSTRI NUSANTARA, PT</td>
+                    <td>Pertamina RU VI Balongan</td>
+                    <td>Water Treatment Plant</td>
+                    <td>Gate, Globe, Check dan Butterfly Valve</td>
                     <td>2020</td>
                   </tr>
                   <tr>
@@ -857,6 +868,7 @@ else {
               </table>
             </div>
           </div>
+          </div>
         </div>
 
         <div class="container section-title mt-5" data-aos="fade-up">
@@ -1029,6 +1041,20 @@ else {
     eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
 	if (restore) selObj.selectedIndex=0;
 	}
+</script>
+
+<script>
+  function slideUp(el) {
+  var elem = document.getElementById(el);
+  elem.style.transition = "all 2s ease-in-out";
+  elem.style.height = "0px";
+  }
+  function slideDown(el) {
+    var elem = document.getElementById(el);
+    elem.style.transition = "all 2s ease-in-out";
+    elem.style.height = "1650px";
+  }
+</script>
 </script>
 
 </body>
