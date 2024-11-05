@@ -638,13 +638,9 @@ else {
     <section id="pc" class="skills section">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="container section-title" data-aos="fade-up">
-<<<<<<< HEAD
           <h2><?php echo $projectreferences; ?></h2>
-=======
-          <h2>ANS PROJECT REFERENCE</h2>
         <button onclick="slideUp('box');" class="custom-btn btn-12"><span>Click!</span><span>Read Less</span></button>
         <button onclick="slideDown('box');" class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
->>>>>>> 877adc7672b31baafb553ef844f0dbbe92e7dac0
         </div>
         <div id = "box">
         <div class="row">
