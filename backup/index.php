@@ -1056,7 +1056,6 @@ else {
     elem.style.height = "1650px";
   }
 </script>
-</script>
 
 </body>
 
