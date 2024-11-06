@@ -5,40 +5,6 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-/**more button di about us */
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var dots = document.getElementById("dots1");
-  var dots = document.getElementById("dots2");
-  var dots = document.getElementById("dots3");
-  var dots = document.getElementById("dots4");
-  var dots = document.getElementById("dots5");
-  var dots = document.getElementById("dots6");
-
-  var btnText = document.getElementById("myBtn");
-
-
-  if (dots.style.display === "inline") {
-    dots.style.display = "none";
-    dots1.style.display = "none";
-    dots2.style.display = "none";
-    dots3.style.display = "none";
-    dots4.style.display = "none";
-    dots5.style.display = "none";
-    dots6.style.display = "none";
-    btnText.innerHTML = "Read more";
-  } else {
-    dots.style.display = "inline";
-    dots1.style.display = "inline";
-    dots2.style.display = "inline";
-    dots3.style.display = "inline";
-    dots4.style.display = "inline";
-    dots5.style.display = "inline";
-    dots6.style.display = "inline";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-} 
 
 (function() {
   "use strict";
