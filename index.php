@@ -186,17 +186,17 @@ else {
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="col-lg-2"><img src="assets/logo_arita.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2"><img src="assets/kvc.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2"><img src="assets/ichinose.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2"><img src="assets/logo_bont.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2"><img src="assets/logo_grt.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2"><img src="assets/borne.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2"><img src="assets/logo_wall.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2"><img src="assets/logo_kitz.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2"><img src="assets/smith.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2"><img src="assets/cooper.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2"><img src="assets/fukuyama.png" class="img-fluid" alt=""></div>
+            <div class="col-lg-2 align-items-center"><img src="assets/logo_arita.png" class="img-fluid" alt=""></div>
+            <div class="col-lg-2 align-items-center"><img src="assets/kvc.png" class="img-fluid" alt=""></div>
+            <div class="col-lg-2 align-items-center"><img src="assets/ichinose.png" class="img-fluid" alt=""></div>
+            <div class="col-lg-2 align-items-center"><img src="assets/logo_bont.png" class="img-fluid" alt=""></div>
+            <div class="col-lg-2 align-items-center"><img src="assets/logo_grt.png" class="img-fluid" alt=""></div>
+            <div class="col-lg-2 align-items-center"><img src="assets/borne.png" class="img-fluid" alt=""></div>
+            <div class="col-lg-2 align-items-center"><img src="assets/logo_wall.png" class="img-fluid" alt=""></div>
+            <div class="col-lg-2 align-items-center"><img src="assets/logo_kitz.png" class="img-fluid" alt=""></div>
+            <div class="col-lg-2 align-items-center"><img src="assets/smith.png" class="img-fluid" alt=""></div>
+            <div class="col-lg-2 align-items-center"><img src="assets/cooper.png" class="img-fluid" alt=""></div>
+            <div class="col-lg-2 align-items-center"><img src="assets/fukuyama.png" class="img-fluid" alt=""></div>
           </div>
         </div>
 
@@ -332,7 +332,7 @@ else {
             }
           </script>
           <div class="swiper-wrapper">
-            <div class="col-lg-2">
+            <div class="col-lg-2 align-items-center">
               <div class="text-center">
                 <div class="icon mb-3">
                   <img src="assets\img\CPS.png" width="80%">
@@ -345,7 +345,7 @@ else {
                 </p>
               </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2 align-items-center">
               <div class="text-center">
                 <div class="icon mb-3">
                   <img src="assets\img\CMS.png" width="60%">
@@ -358,7 +358,7 @@ else {
                 </p>
               </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2 align-items-center">
               <div class="text-center">
                 <div class="icon mb-3">
                   <img src="assets\img\CCS.png" width="80%">
@@ -371,7 +371,7 @@ else {
                 </p>
               </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2 align-items-center">
               <div class="text-center">
                 <div class="icon mb-3">
                   <img src="assets\img\VRS.png" width="80%">
@@ -423,7 +423,7 @@ else {
           </ul>
           <div class="row gy-4 isotope-container text-center" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-2 align-items-center col-md-6">
               <img src="assets/product/globe_valve.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product - Globe Valve</h4>
@@ -431,7 +431,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-warehouse">
+            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-warehouse">
               <img src="assets/warehouse/warehouse_1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Warehouse</h4>
@@ -439,7 +439,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-workshop">
+            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-workshop">
               <img src="assets/workshop/workshop_1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Workshop</h4>
@@ -447,7 +447,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-manu">
+            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-manu">
               <img src="assets/manu/manu_1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Manufacture</h4>
@@ -455,7 +455,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-2 align-items-center col-md-6">
               <img src="assets/product/gate_valve.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product - Gate Valve</h4>
@@ -463,7 +463,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-workshop">
+            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-workshop">
               <img src="assets/workshop/workshop_2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Workshop</h4>
@@ -471,7 +471,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-warehouse">
+            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-warehouse">
               <img src="assets/warehouse/warehouse_2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Warehouse</h4>
@@ -479,7 +479,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-manu">
+            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-manu">
               <img src="assets/manu/manu_2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Manufacture</h4>
@@ -487,7 +487,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-2 align-items-center col-md-6">
               <img src="assets/product/butterfly_valve.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product - butterfly Valve</h4>
@@ -495,7 +495,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-workshop">
+            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-workshop">
               <img src="assets/workshop/workshop_3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Workshop</h4>
@@ -503,7 +503,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-warehouse">
+            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-warehouse">
               <img src="assets/warehouse/warehouse_3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Warehouse</h4>
@@ -511,7 +511,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-manu">
+            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-manu">
               <img src="assets/manu/manu_3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Manufacture</h4>
@@ -519,7 +519,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-2 align-items-center col-md-6">
               <img src="assets/product/floating_valve.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product - Floating Valve</h4>
@@ -527,7 +527,7 @@ else {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 portfolio-item isotope-item filter-manu">
+            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-manu">
               <img src="assets/manu/manu_4.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Manufacture</h4>
@@ -546,7 +546,7 @@ else {
       </div>
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-2" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-2 align-items-center" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="text-center">
                 <img src="assets/iso/iso_1.png" alt="" width="100%">
@@ -556,7 +556,7 @@ else {
             </div>
           </div>
 
-          <div class="col-lg-2" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-2 align-items-center" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="text-center">
                 <img src="assets/iso/iso_2.png" alt="" width="100%">
@@ -566,7 +566,7 @@ else {
             </div>
           </div>
 
-          <div class="col-lg-2" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-2 align-items-center" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="text-center">
                 <img src="assets/iso/iso_3.png" alt="" width="100%">
@@ -585,7 +585,7 @@ else {
       </div>
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item text-center featured">
               <img src="assets/certi/certi_1.png" alt="" width="100%" >
               <h3 class="mt-4">
@@ -595,7 +595,7 @@ else {
             </div>
           </div>
 
-          <div class="col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item text-center featured">
               <img src="assets/certi/certi_2.png" alt="" width="100%" >
               <h3 class="mt-4">
@@ -605,7 +605,7 @@ else {
             </div>
           </div>
 
-          <div class="col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item text-center featured">
               <img src="assets/certi/certi_3.png" alt="" width="100%" >
               <h3 class="mt-4">
@@ -615,8 +615,8 @@ else {
             </div>
           </div>
 
-          <div class="col-lg-2" data-aos="zoom-in" data-aos-delay="100"></div>
-          <div class="col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100"></div>
+          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item text-center featured">
               <img src="assets/certi/certi_4.png" alt="" width="100%" >
               <h3 class="mt-4">
@@ -625,7 +625,7 @@ else {
               </h3>
             </div>
           </div>
-          <div class="col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item text-center featured">
               <img src="assets/certi/certi_5.png" alt="" width="100%" >
               <h3 class="mt-4">
@@ -633,7 +633,7 @@ else {
               </h3>
             </div>
           </div>
-          <div class="col-lg-2" data-aos="zoom-in" data-aos-delay="100"></div>
+          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100"></div>
         </div>
       </div>
     </section>
@@ -874,20 +874,20 @@ else {
           <h2><?php echo $anscustomers; ?></h2>
         </div>
         <div class="row">
-        <div class="col-lg-2"><img src="assets/adhikarya.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/cikarang.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/elnusa.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/exxon.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/ikpt.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/montd.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/pertamina.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/petrosea.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/pgeo.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/pgn.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/pln.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/pusri.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/timah.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2"><img src="assets/wika.png" class="img-fluid" alt=""></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/adhikarya.png" class="img-fluid " alt=""></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/cikarang.png" class="img-fluid" alt=""></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/elnusa.png" class="img-fluid" alt=""></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/exxon.png" class="img-fluid" alt=""></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/ikpt.png" class="img-fluid" alt="" width = 80%></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/montd.png" class="img-fluid" alt=""></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/pertamina.png" class="img-fluid" alt=""></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/petrosea.png" class="img-fluid" alt=""></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/pgeo.png" class="img-fluid" alt=""></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/pgn.png" class="img-fluid" alt="" width = "60%"></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/pln.png" class="img-fluid" alt=""></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/pusri.png" class="img-fluid" alt="" width = "60%"></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/timah.png" class="img-fluid" alt=""></div>
+        <div class="col-lg-2 align-items-center"><img src="assets/wika.png" class="img-fluid" alt=""></div>
         </div>
       </div>
     </section>
@@ -941,7 +941,7 @@ else {
   <footer id="footer" class="footer">
     <div class="container footer-top">
       <div class="row gy-4">
-        <div class="col-lg-2 col-md-6 footer-about">
+        <div class="col-lg-2 align-items-center col-md-6 footer-about">
           <a href="index.php" class="d-flex align-items-center">
             <img src="assets/logo_ans.png" alt="" width="40%">
           </a>
@@ -954,7 +954,7 @@ else {
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-2 align-items-center col-md-3 footer-links">
           <h4><?php echo $usefullinks; ?></h4>
           <ul>
             <li> <i class="bi bi-chevron-right"></i><a href="#hero" class="active"><?php echo $home_foot; ?></a></li>
@@ -966,7 +966,7 @@ else {
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-2 align-items-center col-md-3 footer-links">
           <h4><?php echo $ourproducts; ?></h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $oil_gasvalve; ?></a></li>
@@ -980,7 +980,7 @@ else {
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-12">
+        <div class="col-lg-2 align-items-center col-md-12">
           <h4><?php echo $followus; ?></h4>
           <p><?php echo $followusexp; ?></p>
           <div class="social-links d-flex">
