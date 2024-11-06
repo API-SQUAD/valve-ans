@@ -187,13 +187,16 @@ else {
           </script>
           <div class="swiper-wrapper align-items-center">
             <div class="swiper-slide"><img src="assets/logo_arita.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/logo_avr.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/logo_premier.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/kvc.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/ichinose.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/logo_bont.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/logo_grt.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/logo_rocsole.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/borne.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/logo_wall.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/logo_kitz.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/smith.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/cooper.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/fukuyama.png" class="img-fluid" alt=""></div>
           </div>
         </div>
 
@@ -638,9 +641,15 @@ else {
     <section id="pc" class="skills section">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="container section-title" data-aos="fade-up">
+<<<<<<< Updated upstream:index.php
           <h2><?php echo $projectreferences; ?></h2>
         <button onclick="slideUp('box');" class="custom-btn btn-12"><span>Click!</span><span>Read Less</span></button>
         <button onclick="slideDown('box');" class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+=======
+          <h2>ANS PROJECT REFERENCE</h2>
+        <button onclick="slideUp('box');" class="custom-btn btn-16"><span></span><span>Read Less</span></button>
+        <button onclick="slideDown('box');" class="custom-btn btn-16"><span></span><span>Read More</span></button>
+>>>>>>> Stashed changes:backup/index.php
         </div>
         <div id = "box">
         <div class="row">
@@ -871,36 +880,20 @@ else {
           <h2><?php echo $anscustomers; ?></h2>
         </div>
         <div class="row">
-          <div class="col-lg-4 d-flex align-items-center">
-            <img src="assets/img/skills.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-4 pt-4 pt-lg-0 content">
-            <ul>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Bukit Asam Tbk</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Vale Indonesia Tbk</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Petronas Niaga Indonesia</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Pertamina Driling Service Indonesia</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. PGAS Solution</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Indonesia Power</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Timah Tbk</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Medco E & P Tonmori Sulawesi</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. PLN (Persero)</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Pertamina Geothermal Energy</span></li>
-            </ul>
-          </div>
-          <div class="col-lg-4 pt-4 pt-lg-0 content">
-            <ul>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Pertamina (Persero)</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Pelabuhan Indonesia 2 (Persero)</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Geo Dipa Energi</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. PJB Services</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. PJBUP Muara Karan</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Pembangkit Jawa Bali</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Rekayasa Industri</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Adhi Karya Tbk</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>PT. Medco Energi Internasional Tbk</span></li>
-            </ul>
-          </div>
+        <div class="swiper-slide"><img src="assets/adhikarya.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/cikarang.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/elnusa.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/exxon.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/ikpt.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/montd.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/pertamina.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/petrosea.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/pgeo.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/pgn.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/pln.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/pusri.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/timah.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/wika.png" class="img-fluid" alt=""></div>
         </div>
       </div>
     </section>
