@@ -50,7 +50,7 @@ else {
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <a href="index.php" class="logo d-flex align-items-center me-auto">
         <img src="assets/logo_ans.png" alt="">
       </a>
 
@@ -61,7 +61,9 @@ else {
           <li><a href="#services"><?php echo $service; ?></a></li>
           <li><a href="#gallery"><?php echo $gallery; ?></a></li>
           <li><a href="#certi"><?php echo $certification; ?></a></li>
-          <li><a href="#pc"><?php echo $project; ?></a></li>
+          <li><a href="#pc">
+            <?php echo $pj; ?>
+          </a></li>
           <li class="dropdown"><a href="cast.html"><span>Product</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li class="dropdown"><a href="cast.html"><span>ANS Cast Steel</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -93,7 +95,7 @@ else {
           </li>
           <li><a href="#contact"><?php echo $contact; ?></a></li>
           <form name="form1" method="post" action="?lang=">
-            <select name="menu1" class="rounded shadow" style="font-size: 11px;" onChange="MM_jumpMenu('parent',this,0)">
+            <select name="menu1" class="rounded shadow" style="font-size: 15px;" onChange="MM_jumpMenu('parent',this,0)">
             <?php
             if(($_GET['lang'] == "id") || (empty($_GET['lang']))) {
             ?>
@@ -127,7 +129,7 @@ else {
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
             <h1 class="text-white">PT.AMANAH NUSANTARA SEJAHTERA (ANS)</h1>
-            <p class="text-white">Ideal Business Partner for Your Business and PMDN Company Founded in February 2016</p>
+            <p class="text-white"><?php echo $jargon;?></p>
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Get Started</a>
               <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center text-white"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
@@ -201,30 +203,30 @@ else {
 
     <section id="about" class="about section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>About Us</h2>
+        <h2><?php echo $aboutus; ?></h2>
       </div>
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <p>PT. Amanah Nusantara Sejahtera (ANS) is a PMDN company, which was established in February 2016, starting from the desire to provide the best service to customers, with a focus on the Oil & Gas, Mining, Petrochemical, Power Plant and Geothermall sections.</p>
+            <p><?php echo $aboutusexp; ?></p>
             <!-- <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a> -->
-              <h3>Company Structure</h3>
+              <h3><?php echo $structure; ?></h3>
               <img src="assets/struktur.png" alt="" width="100%">
           </div>
 
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            <h3>Vision</h3>
-            <p>To be a leading company in the field of wholesale tradin for the Oil & Gas, Mining, Petrochemical and Geothermal Power Plant industries in Indonesia.</p>
-            <h3>Mision</h3>
+            <h3><?php echo $vision; ?></h3>
+            <p><?php echo $visionexp; ?></p>
+            <h3><?php echo $mission; ?></h3>
             <ul>
-              <li><i class="bi bi-check2-circle"></i> <span>Mastering the trade market for industrial needs in the form of valve products, fittings, instruments and accessories in Indonesia.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Provide excellent service to customers.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>As an ideal business partner by providing effective and efficient services and solutions.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Having professional human resources.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Have an ethical and professional work culture and business.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Always carry out sustainable technology Development.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Implement a quality management system and K3L in accordance with applicable laws and regulations.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Implementing Good Corporate Governance (GCG).</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span><?php echo $missionexp1; ?></span></li>
+              <li><i class="bi bi-check2-circle"></i> <span><?php echo $missionexp2; ?></span></li>
+              <li><i class="bi bi-check2-circle"></i> <span><?php echo $missionexp3; ?></span></li>
+              <li><i class="bi bi-check2-circle"></i> <span><?php echo $missionexp4; ?></span></li>
+              <li><i class="bi bi-check2-circle"></i> <span><?php echo $missionexp5; ?></span></li>
+              <li><i class="bi bi-check2-circle"></i> <span><?php echo $missionexp6; ?></span></li>
+              <li><i class="bi bi-check2-circle"></i> <span><?php echo $missionexp7; ?></span></li>
+              <li><i class="bi bi-check2-circle"></i> <span><?php echo $missionexp8; ?></span></li>
             </ul>
           </div>
         </div>
@@ -236,57 +238,51 @@ else {
         <div class="row gy-4">
           <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
             <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3><strong>CORE VALUE</strong></h3>
+              <h3><strong><?php echo $corevalues; ?></strong></h3>
             </div>
 
             <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
 
               <div class="faq-item faq-active">
 
-                <h3><span>01</span> Trusted and Reliable</h3>
+                <h3><span>01</span> <?php echo $trustedreliable; ?></h3>
                 <div class="faq-content">
                   <p>
-                    We are trusted by all stakeholders in every way, therefore we always : <br>
-                    - Improve the ability <br>
-                    - Be fair and responsible <br>
-                    - Be polite
+                  <?php echo $trustedreliableexp; ?>
                   </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
 
               <div class="faq-item">
-                <h3><span>02</span> Focus on Customers</h3>
+                <h3><span>02</span> <?php echo $focusoncustomers; ?></h3>
                 <div class="faq-content">
-                  <p>We are always looking for opportunities to deliver more than our customers expect through continuous inovation in all areas.</p>
+                  <p><?php echo $focusoncustomersexp; ?></p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
 
               <div class="faq-item">
-                <h3><span>03</span> Continuous Improvement</h3>
+                <h3><span>03</span> <?php echo $continuousimprovement; ?></h3>
                 <div class="faq-content">
-                  <p>We always make continuous and periodie improvement to improve the products produced.</p>
+                  <p><?php echo $continuousimprovementexp; ?></p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
 
               <div class="faq-item">
-                <h3><span>04</span> Innovation</h3>
+                <h3><span>04</span> <?php echo $innovation; ?></h3>
                 <div class="faq-content">
-                  <p>We always innovate to improve or improve the function of the utillization of an existing product or resource.</p>
+                  <p><?php echo $innovationexp; ?></p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
 
               <div class="faq-item">
-                <h3><span>05</span> Cooperation</h3>
+                <h3><span>05</span><?php echo $cooperation; ?></h3>
                 <div class="faq-content">
                   <p>
-                    We are proud to work of MAV to achieve mu success by always prioritizing : <br>
-                    - Synergy <br>
-                    - Mutual respect an appreciation <br>
-                    - Be part of the solutions
+                  <?php echo $cooperationexp; ?>
                   </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
@@ -312,8 +308,8 @@ else {
 
     <section id="services" class="testimonials section light-background">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Our Services</h2>
-        <p>We provide you any services that priorities excellence</p>
+        <h2><?php echo $ourservice; ?></h2>
+        <p><?php echo $ourserviceexp; ?></p>
       </div>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper init-swiper">
@@ -338,10 +334,10 @@ else {
                 <div class="icon mb-3">
                   <img src="assets\img\CPS.png" width="80%">
                 </div>
-                <h3>Construction Piping Service</h3>
+                <h3><?php echo $conspipe; ?></h3>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>ANS is your friendly piping construction solution</span>
+                  <span><?php echo $conspipeexp; ?></span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -351,10 +347,10 @@ else {
                 <div class="icon mb-3">
                   <img src="assets\img\CMS.png" width="60%">
                 </div>
-                <h3>Construction Mechanical Service</h3>
+                <h3><?php echo $consmec; ?></h3>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>An answer for all of your Mechanical Problem</span>
+                  <span><?php echo $consmecexp; ?></span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -364,10 +360,10 @@ else {
                 <div class="icon mb-3">
                   <img src="assets\img\CCS.png" width="80%">
                 </div>
-                <h3>Custom Casting Service</h3>
+                <h3><?php echo $custcast; ?></h3>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>From Fan Blade to Nozzle, ANS is ready for your custom casting needs</span>
+                  <span><?php echo $custcastexp; ?></span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -377,10 +373,10 @@ else {
                 <div class="icon mb-3">
                   <img src="assets\img\VRS.png" width="80%">
                 </div>
-                <h3>Valve Repair Service</h3>
+                <h3><?php echo $valverep; ?></h3>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Our professional engineers are ready for all your valve problem</span>
+                  <span><?php echo $valverepexp; ?></span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -396,14 +392,13 @@ else {
       <div class="container">
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-9 text-center text-xl-start">
-            <h3>Call To Action</h3>
+            <h3><?php echo $cta; ?></h3>
             <p>
-              Thank you for visiting our website. We want to provide you with the best service for the needs you face. <br>
-              If you have questions or help, contact us.
+            <?php echo $ctaexp; ?>
             </p>
           </div>
           <div class="col-xl-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#contact">Call To Action</a>
+            <a class="cta-btn align-middle" href="#contact"><?php echo $ctabutton; ?></a>
           </div>
         </div>
       </div>
@@ -411,17 +406,17 @@ else {
 
     <section id="gallery" class="portfolio section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Gallery</h2>
+        <h2><?php echo $gallery; ?></h2>
       </div>
 
       <div class="container">
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-workshop">Workshop</li>
-            <li data-filter=".filter-warehouse">Warehouse</li>
-            <li data-filter=".filter-manu">Manufacture</li>
+            <li data-filter="*" class="filter-active"><?php echo $all_img; ?></li>
+            <li data-filter=".filter-product"><?php echo $products_img; ?></li>
+            <li data-filter=".filter-workshop"><?php echo $workshop_img; ?></li>
+            <li data-filter=".filter-warehouse"><?php echo $warehouse_img; ?></li>
+            <li data-filter=".filter-manu"><?php echo $manufacture_img; ?></li>
           </ul>
           <div class="row gy-4 isotope-container text-center" data-aos="fade-up" data-aos-delay="200">
 
@@ -544,7 +539,7 @@ else {
 
     <section id="certi" class="team section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>ISO CERTIFICATION</h2>
+        <h2><?php echo $ISO; ?></h2>
       </div>
       <div class="container">
         <div class="row gy-4">
@@ -583,7 +578,7 @@ else {
 
     <section id="" class="pricing section light-background">
       <div class="container section-title" data-aos="fade-up">
-        <h2>TKDN CERTIFICATION</h2>
+        <h2><?php echo $TKDN; ?></h2>
       </div>
       <div class="container">
         <div class="row gy-4">
@@ -643,7 +638,7 @@ else {
     <section id="pc" class="skills section">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="container section-title" data-aos="fade-up">
-          <h2>ANS PROJECT REFERENCE</h2>
+          <h2><?php echo $projectreferences; ?></h2>
         <button onclick="slideUp('box');" class="custom-btn btn-12"><span>Click!</span><span>Read Less</span></button>
         <button onclick="slideDown('box');" class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
         </div>
@@ -655,11 +650,11 @@ else {
                 <thead class="thead-dark">
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Customer</th>
-                    <th scope="col">End User</th>
-                    <th scope="col">Project Name</th>
-                    <th scope="col">Product</th>
-                    <th scope="col">Year</th>
+                    <th scope="col"><?php echo $customername; ?></th>
+                    <th scope="col"><?php echo $endusers; ?></th>
+                    <th scope="col"><?php echo $projectnames; ?></th>
+                    <th scope="col"><?php echo $products; ?></th>
+                    <th scope="col"><?php echo $projectyear; ?></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -873,7 +868,7 @@ else {
         </div>
 
         <div class="container section-title mt-5" data-aos="fade-up">
-          <h2>ANS CUSTOMER</h2>
+          <h2><?php echo $anscustomers; ?></h2>
         </div>
         <div class="row">
           <div class="col-lg-4 d-flex align-items-center">
@@ -912,7 +907,7 @@ else {
 
     <section id="contact" class="contact section light-background">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
+        <h2><?php echo $contacts; ?></h2>
       </div>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4">
@@ -921,27 +916,25 @@ else {
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
-                  <h3>Address</h3>
+                  <h3><?php echo $address; ?></h3>
                   <p>
-                    Rukan Sunter Permai, Jl. Danau Sunter Utara No.7 Blok B <br>
-                    RT.8/RW.15, Sunter Agung, Kec. Tj. Priok, Jkt Utara, <br>
-                    Daerah Khusus Ibu kota Jakarta 14350
+                  <?php echo $addressexp; ?>
                   </p>
                 </div>
               </div>
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
-                  <h3>Call Us</h3>
-                  <p>(021) 29460553</p>
+                  <h3><?php echo $callus; ?></h3>
+                  <p><?php echo $callusexp; ?></p>
                 </div>
               </div>
 
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
-                  <h3>Email Us</h3>
-                  <p>customer.service@valve-ans.com</p>
+                  <h3><?php echo $emailus; ?></h3>
+                  <p><?php echo $emailusexp; ?></p>
                 </div>
               </div>
             </div>
@@ -962,7 +955,7 @@ else {
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="d-flex align-items-center">
+          <a href="index.php" class="d-flex align-items-center">
             <img src="assets/logo_ans.png" alt="" width="40%">
           </a>
           <div class="footer-contact pt-3">
@@ -975,34 +968,34 @@ else {
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+          <h4><?php echo $usefullinks; ?></h4>
           <ul>
-            <li> <i class="bi bi-chevron-right"></i><a href="#hero" class="active">Home</a></li>
-            <li> <i class="bi bi-chevron-right"></i><a href="#about">About</a></li>
-            <li> <i class="bi bi-chevron-right"></i><a href="#services">Services</a></li>
-            <li> <i class="bi bi-chevron-right"></i><a href="#gallery">Gallery</a></li>
-            <li> <i class="bi bi-chevron-right"></i><a href="#certi">Certification</a></li>
-            <li> <i class="bi bi-chevron-right"></i><a href="#pc">Project & Customer</a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#hero" class="active"><?php echo $home_foot; ?></a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#about"><?php echo $about_foot; ?></a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#services"><?php echo $services_foot; ?></a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#gallery"><?php echo $gallery_foot; ?></a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#certi">C<?php echo $certification_foot; ?></a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#pc"><?php echo $project_customers; ?></a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Product</h4>
+          <h4><?php echo $ourproducts; ?></h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Oil & Gas Valve</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Petrochemical Valve</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Power Plant & Mining Valve</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Lining Ceramic Valve</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Lining PFA Valve</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Control Water Product</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Instrumentation</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $oil_gasvalve; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $petrochemical_valve; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $powpla_minvalve; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $lincervalve; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $linpfavalve; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $conwater; ?></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $instrumentation; ?></a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Petrochemical Valve</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-12">
-          <h4>Follow Us</h4>
-          <p>Follow our social media to get other important information</p>
+          <h4><?php echo $followus; ?></h4>
+          <p><?php echo $followusexp; ?></p>
           <div class="social-links d-flex">
             <a href="https://www.facebook.com/ptamanahnusanterasejahtera"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/ansvalve"><i class="bi bi-instagram"></i></a>
