@@ -641,9 +641,15 @@ else {
     <section id="pc" class="skills section">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="container section-title" data-aos="fade-up">
-        <h2><?php echo $projectreferences; ?></h2>
+<<<<<<< Updated upstream:index.php
+          <h2><?php echo $projectreferences; ?></h2>
+        <button onclick="slideUp('box');" class="custom-btn btn-12"><span>Click!</span><span>Read Less</span></button>
+        <button onclick="slideDown('box');" class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+=======
+          <h2>ANS PROJECT REFERENCE</h2>
         <button onclick="slideUp('box');" class="custom-btn btn-16"><span></span><span>Read Less</span></button>
         <button onclick="slideDown('box');" class="custom-btn btn-16"><span></span><span>Read More</span></button>
+>>>>>>> Stashed changes:backup/index.php
         </div>
         <div id = "box">
         <div class="row">
