@@ -35,17 +35,17 @@ error_reporting(0);
 </head>
 
 <body class="index-page">
-<?php
-if($_GET['lang'] == "en") {
-  $a = include "lang/english.php";
-} 
-else if ($_GET['lang'] == "id") {
-  $a = include "lang/indonesia.php";
-} 
-else {
-  $a = include "lang/indonesia.php";
-}
-?>
+  <?php
+  if($_GET['lang'] == "en") {
+    $a = include "lang/english.php";
+  } 
+  else if ($_GET['lang'] == "id") {
+    $a = include "lang/indonesia.php";
+  } 
+  else {
+    $a = include "lang/indonesia.php";
+  }
+  ?>
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
@@ -122,9 +122,7 @@ else {
   </header>
 
   <main class="main">
-
     <section id="hero" class="hero section" style="background-color: #5160b8;">
-
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
@@ -140,13 +138,10 @@ else {
           </div>
         </div>
       </div>
-
     </section>
 
     <section id="clients" class="clients section light-background">
-
       <div class="container" data-aos="zoom-in">
-
         <div class="swiper init-swiper">
           <script type="application/json" class="swiper-config">
             {
@@ -186,22 +181,20 @@ else {
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="col-lg-2 align-items-center"><img src="assets/logo_arita.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2 align-items-center"><img src="assets/kvc.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2 align-items-center"><img src="assets/ichinose.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2 align-items-center"><img src="assets/logo_bont.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2 align-items-center"><img src="assets/logo_grt.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2 align-items-center"><img src="assets/borne.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2 align-items-center"><img src="assets/logo_wall.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2 align-items-center"><img src="assets/logo_kitz.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2 align-items-center"><img src="assets/smith.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2 align-items-center"><img src="assets/cooper.png" class="img-fluid" alt=""></div>
-            <div class="col-lg-2 align-items-center"><img src="assets/fukuyama.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logo_arita.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/kvc.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/ichinose.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logo_bont.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logo_grt.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/borne.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logo_wall.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logo_kitz.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/smith.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/cooper.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/fukuyama.png" class="img-fluid" alt=""></div>
           </div>
         </div>
-
       </div>
-
     </section>
 
     <section id="about" class="about section">
@@ -332,7 +325,7 @@ else {
             }
           </script>
           <div class="swiper-wrapper">
-            <div class="col-lg-2 align-items-center">
+            <div class="swiper-slide">
               <div class="text-center">
                 <div class="icon mb-3">
                   <img src="assets\img\CPS.png" width="80%">
@@ -345,7 +338,7 @@ else {
                 </p>
               </div>
             </div>
-            <div class="col-lg-2 align-items-center">
+            <div class="swiper-slide">
               <div class="text-center">
                 <div class="icon mb-3">
                   <img src="assets\img\CMS.png" width="60%">
@@ -358,7 +351,7 @@ else {
                 </p>
               </div>
             </div>
-            <div class="col-lg-2 align-items-center">
+            <div class="swiper-slide">
               <div class="text-center">
                 <div class="icon mb-3">
                   <img src="assets\img\CCS.png" width="80%">
@@ -371,7 +364,7 @@ else {
                 </p>
               </div>
             </div>
-            <div class="col-lg-2 align-items-center">
+            <div class="swiper-slide">
               <div class="text-center">
                 <div class="icon mb-3">
                   <img src="assets\img\VRS.png" width="80%">
@@ -422,119 +415,104 @@ else {
             <li data-filter=".filter-manu"><?php echo $manufacture_img; ?></li>
           </ul>
           <div class="row gy-4 isotope-container text-center" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-2 align-items-center col-md-6">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/product/globe_valve.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product - Globe Valve</h4>
                 <a href="assets/product/globe_valve.png" title="Product - Globe Valve" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-warehouse">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-warehouse">
               <img src="assets/warehouse/warehouse_1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Warehouse</h4>
                 <a href="assets/warehouse/warehouse_1.png" title="Warehouse" data-gallery="portfolio-gallery-warehouse" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-workshop">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-workshop">
               <img src="assets/workshop/workshop_1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Workshop</h4>
                 <a href="assets/workshop/workshop_1.png" title="Workshop" data-gallery="portfolio-gallery-workshop" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-manu">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-manu">
               <img src="assets/manu/manu_1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Manufacture</h4>
                 <a href="assets/manu/manu_1.png" title="Manufacture" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/product/gate_valve.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product - Gate Valve</h4>
                 <a href="assets/product/gate_valve.png" title="Product - Gate Valve" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-workshop">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-workshop">
               <img src="assets/workshop/workshop_2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Workshop</h4>
                 <a href="assets/workshop/workshop_2.png" title="Workshop" data-gallery="portfolio-gallery-workshop" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-warehouse">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-warehouse">
               <img src="assets/warehouse/warehouse_2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Warehouse</h4>
                 <a href="assets/warehouse/warehouse_2.png" title="Warehouse" data-gallery="portfolio-gallery-warehouse" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-manu">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-manu">
               <img src="assets/manu/manu_2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Manufacture</h4>
                 <a href="assets/manu/manu_2.png" title="Manufacture" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/product/butterfly_valve.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product - butterfly Valve</h4>
                 <a href="assets/product/butterfly_valve.png" title="Product - butterfly Valve" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-workshop">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-workshop">
               <img src="assets/workshop/workshop_3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Workshop</h4>
                 <a href="assets/workshop/workshop_3.png" title="Workshop" data-gallery="portfolio-gallery-workshop" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-warehouse">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-warehouse">
               <img src="assets/warehouse/warehouse_3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Warehouse</h4>
                 <a href="assets/warehouse/warehouse_3.png" title="Warehouse" data-gallery="portfolio-gallery-warehouse" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-manu">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-manu">
               <img src="assets/manu/manu_3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Manufacture</h4>
                 <a href="assets/manu/manu_3.png" title="Manufacture" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/product/floating_valve.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product - Floating Valve</h4>
                 <a href="assets/product/floating_valve.png" title="Product - Floating Valve" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
-            <div class="col-lg-2 align-items-center col-md-6 portfolio-item isotope-item filter-manu">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-manu">
               <img src="assets/manu/manu_4.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Manufacture</h4>
                 <a href="assets/manu/manu_4.png" title="Manufacture" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -546,7 +524,7 @@ else {
       </div>
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-2 align-items-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="text-center">
                 <img src="assets/iso/iso_1.png" alt="" width="100%">
@@ -555,8 +533,7 @@ else {
               </div>
             </div>
           </div>
-
-          <div class="col-lg-2 align-items-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="text-center">
                 <img src="assets/iso/iso_2.png" alt="" width="100%">
@@ -565,8 +542,7 @@ else {
               </div>
             </div>
           </div>
-
-          <div class="col-lg-2 align-items-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="text-center">
                 <img src="assets/iso/iso_3.png" alt="" width="100%">
@@ -585,7 +561,7 @@ else {
       </div>
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item text-center featured">
               <img src="assets/certi/certi_1.png" alt="" width="100%" >
               <h3 class="mt-4">
@@ -594,8 +570,7 @@ else {
               </h3>
             </div>
           </div>
-
-          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item text-center featured">
               <img src="assets/certi/certi_2.png" alt="" width="100%" >
               <h3 class="mt-4">
@@ -604,8 +579,7 @@ else {
               </h3>
             </div>
           </div>
-
-          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item text-center featured">
               <img src="assets/certi/certi_3.png" alt="" width="100%" >
               <h3 class="mt-4">
@@ -614,9 +588,8 @@ else {
               </h3>
             </div>
           </div>
-
-          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100"></div>
-          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-2" data-aos="zoom-in" data-aos-delay="100"></div>
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item text-center featured">
               <img src="assets/certi/certi_4.png" alt="" width="100%" >
               <h3 class="mt-4">
@@ -625,7 +598,7 @@ else {
               </h3>
             </div>
           </div>
-          <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item text-center featured">
               <img src="assets/certi/certi_5.png" alt="" width="100%" >
               <h3 class="mt-4">
@@ -641,259 +614,290 @@ else {
     <section id="pc" class="skills section">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="container section-title" data-aos="fade-up">
-<<<<<<< Updated upstream:index.php
           <h2><?php echo $projectreferences; ?></h2>
         <button onclick="slideUp('box');" class="custom-btn btn-12"><span>Click!</span><span>Read Less</span></button>
         <button onclick="slideDown('box');" class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
-=======
-          <h2>ANS PROJECT REFERENCE</h2>
-        <button onclick="slideUp('box');" class="custom-btn btn-16"><span></span><span>Read Less</span></button>
-        <button onclick="slideDown('box');" class="custom-btn btn-16"><span></span><span>Read More</span></button>
->>>>>>> Stashed changes:backup/index.php
-        </div>
         <div id = "box">
-        <div class="row">
-          <div class="col-lg-12 pt-4 pt-lg-0 content">
-            <div class="skills-content skills-animation">
-              <table class="table table-bordered">
-                <thead class="thead-dark">
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col"><?php echo $customername; ?></th>
-                    <th scope="col"><?php echo $endusers; ?></th>
-                    <th scope="col"><?php echo $projectnames; ?></th>
-                    <th scope="col"><?php echo $products; ?></th>
-                    <th scope="col"><?php echo $projectyear; ?></th>
+          <div class="row">
+            <div class="col-lg-12 pt-4 pt-lg-0 content">
+              <div class="skills-content skills-animation">
+                <table class="table table-bordered">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col"><?php echo $customername; ?></th>
+                      <th scope="col"><?php echo $endusers; ?></th>
+                      <th scope="col"><?php echo $projectnames; ?></th>
+                      <th scope="col"><?php echo $products; ?></th>
+                      <th scope="col"><?php echo $projectyear; ?></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>TAMBANG TONDANO NUSAJAYA, PT</td>
+                      <td>Rajawali Group</td>
+                      <td>Gold Mining</td>
+                      <td>Gate Valve Alloy Steel</br>
+                        Safety Relief Valve Bueno</td>
+                      <td>2020</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>PEMBANGKITAN JAWA-BALI, PT</td>
+                      <td>PJB UJLJ Bangka</td>
+                      <td>Boiler CCTV Furnace</td>
+                      <td>Furnace Camera Boiler Cooling System & Electric Control</td>
+                      <td>2020</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>YASA INDUSTRI NUSANTARA, PT</td>
+                      <td>Pertamina RU VI Balongan</td>
+                      <td>Water Treatment Plant</td>
+                      <td>Gate, Globe, Check dan Butterfly Valve</td>
+                      <td>2020</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</td>
+                      <td>REXAUDIA SASADA SENTOSA, PT</td>
+                      <td></td>
+                      <td></td>
+                      <td>Ball dan Check Valve</td>
+                      <td>2020</td>
                   </tr>
-                </thead>
-                <tbody>
                   <tr>
-                    <th scope="row">1</th>
-                    <td>TAMBANG TONDANO NUSAJAYA, PT</td>
-                    <td>Rajawali Group</td>
-                    <td>Gold Mining</td>
-                    <td>Gate Valve Alloy Steel</br>
-                      Safety Relief Valve Bueno</td>
-                    <td>2020</td>
+                      <th scope="row">5</td>
+                      <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
+                      <td>Pertamina RU VI Balongan</td>
+                      <td>Sour Crude</td>
+                      <td>Gate, Globe Swing</td>
+                      <td>2020</td>
                   </tr>
                   <tr>
-                    <th scope="row">2</th>
-                    <td>PEMBANGKITAN JAWA-BALI, PT</td>
-                    <td>PJB UJLJ Bangka</td>
-                    <td>Boiler CCTV Furnace</td>
-                    <td>Furnace Camera Boiler Cooling System & Electric Control</td>
-                    <td>2020</td>
+                      <th scope="row">6</td>
+                      <td>GARUDA SAKTI INDOJAYA, PT</td>
+                      <td>PLTU Teluk Balikpapan</td>
+                      <td>Penggantian Level Gaude Steam Drum</td>
+                      <td>Level Gauge Steam Drum</td>
+                      <td>2020</td>
                   </tr>
                   <tr>
-                    <th scope="row">3</th>
-                    <td>YASA INDUSTRI NUSANTARA, PT</td>
-                    <td>Pertamina RU VI Balongan</td>
-                    <td>Water Treatment Plant</td>
-                    <td>Gate, Globe, Check dan Butterfly Valve</td>
-                    <td>2020</td>
+                      <th scope="row">7</td>
+                      <td>GARUDA SAKTI INDOJAYA, PT</td>
+                      <td>PLTU Teluk Balikpapan</td>
+                      <td>Penggantian Level Gaude Steam Drum</td>
+                      <td>Level Gauge Steam Drum</td>
+                      <td>2020</td>
                   </tr>
                   <tr>
-                    <th scope="row">4</td>
-                    <td>REXAUDIA SASADA SENTOSA, PT</td>
-                    <td></td>
-                    <td></td>
-                    <td>Ball dan Check Valve</td>
-                    <td>2020</td>
-                </tr>
-                <tr >
-                    <th scope="row">5</td>
-                    <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
-                    <td>Pertamina RU VI Balongan</td>
-                    <td>Sour Crude</td>
-                    <td>Gate, Globe Swing</td>
-                    <td>2020</td>
-                </tr>
-                <div id>
-                <tr>
-                    <th scope="row">6</td>
-                    <td>GARUDA SAKTI INDOJAYA, PT</td>
-                    <td>PLTU Teluk Balikpapan</td>
-                    <td>Penggantian Level Gaude Steam Drum</td>
-                    <td>Level Gauge Steam Drum</td>
-                    <td>2020</td>
-                </tr>
-                <tr>
-                    <th scope="row">7</td>
-                    <td>GARUDA SAKTI INDOJAYA, PT</td>
-                    <td>PLTU Teluk Balikpapan</td>
-                    <td>Penggantian Level Gaude Steam Drum</td>
-                    <td>Level Gauge Steam Drum</td>
-                    <td>2020</td>
-                </tr>
-                <tr>
-                    <th scope="row">8</td>
-                    <td>ENERBA TEKNOLOGI, PT</td>
-                    <td></td>
-                    <td>Water Treatment</td>
-                    <td>Pipe, Elbow</td>
-                    <td>2020</td>
-                </tr>
-                <tr>
-                    <th scope="row">9</td>
-                    <td>BAJA ABADI LESTARI, PT</td>
-                    <td>Wijaya Karya</td>
-                    <td>Bio Diesel</td>
-                    <td>Gate, Check dan Ball Valve</td>
-                    <td>2021</td>
-                </tr>
-                <tr>
-                    <th scope="row">10</td>
-                    <td>SOUTHERN CHEMICALS & ENGINEERING, PT</td>
-                    <td>PT. Cargil</td>
-                    <td>Water Treatment</td>
-                    <td>Gate, Globe, Check dan Butterfly Valve</td>
-                    <td>2021</td>
-                </tr>
-                <tr>
-                    <th scope="row">11</td>
-                    <td>ENERGI LIDAH API, PT</td>
-                    <td>PT. Industri Gula Glammore</td>
-                    <td></td>
-                    <td>Gate dan Globe Valve</td>
-                    <td>2021</td>
-                </tr>
-                <tr>
-                    <th scope="row">12</td>
-                    <td>DWIMITRA EKATAMAN MANDIRI, PT</td>
-                    <td>Prometric Japa Co</td>
-                    <td>Fire Hydrant</td>
-                    <td>Gate Valve Resilient Seated 300PSI OS&Y Type with Flange</td>
-                    <td>2021</td>
-                </tr>
-                <tr>
-                    <th scope="row">13</td>
-                    <td>TRIATAMA TIRTA AMNDIRI, PT</td>
-                    <td>Memiontec Indonesia</td>
-                    <td>Water Treatment Plant</td>
-                    <td>Plat Besi SS400</td>
-                    <td>2021</td>
-                </tr>
-                <tr>
-                    <th scope="row">14</td>
-                    <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
-                    <td>Pertamina RU VI Balongan</td>
-                    <td>Turn Around</td>
-                    <td>Butterfly Valve</td>
-                    <td>2022</td>
-                </tr>
-                <tr>
-                    <th scope="row">15</td>
-                    <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
-                    <td>Pertamina RU VI Balikpapan</td>
-                    <td>PENGADAAN GATE VALVE SOUR CRUDE BPP 1 TA 2024 LOG 1776/22K55 PR 100051030</td>
-                    <td>Gate Valve Solid Wedge</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <th scope="row">16</td>
-                    <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
-                    <td>Pertamina RU VI Balikpapan</td>
-                    <td>PENGADAAN VALVE CARRY OVER TA 2023 LOG 0161/23K55 PR 0100052173</td>
-                    <td>Gate Valve body A217 WCB</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <th scope="row">17</td>
-                    <td>LANCANG KUNING SUKSES, PT</td>
-                    <td>Pertamina RU III Plaju</td>
-                    <td>PENGADAAN UNTUK PERTAMINA RU III PLAJU</td>
-                    <td>Swing Check body A351 CF8 dan Gate Valve body A351 CF8</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <th scope="row">18</td>
-                    <td>PETROSEA TBk, PT</td>
-                    <td>PT. Freeport Smelter Gresik</td>
-                    <td>MMR GRESIK PROJECT</td>
-                    <td>Pipe, Stub End, Elbow, Gasket, Std Bolt</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <th scope="row">19</td>
-                    <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
-                    <td>Pertamina RU VI Balikpapan</td>
-                    <td>PENGADAAN GLOBE VALVE DAN CHECK VALVE SOUR CRUDE LOG 0147/23K55 PR 100051412</td>
-                    <td>Check Valve dan Globe Valve</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <th scope="row">20</td>
-                    <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
-                    <td>Pertamina RU VI Balikpapan</td>
-                    <td>PENGADAAN GATE VALVE SOUR CRUDE BPP 1 TA 2024 REF. LOG NO 1774/22K55 PR 100051055</td>
-                    <td>Gate Valve Solid Wedge</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <th scope="row">21</td>
-                    <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
-                    <td>Pertamina RU VI Balikpapan</td>
-                    <td>PENGADAAN MATERIAL VALVE TA 2024 REF. LOG 0143/23K55 PR 0100052021</td>
-                    <td>Globe Valve body A105, Check Valve body A216 WCB</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <th scope="row">22</td>
-                    <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
-                    <td>Pertamina RU VI Balikpapan</td>
-                    <td>PENGADAAN GATE VALVE SOUR CRUDE BPP 1 TA 2024 LOG NO 1777/22K55 PR 100051051</td>
-                    <td>Gate Valve Solid Wedge</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <th scope="row">23</td>
-                    <td>PETROSEA TBk, PT</td>
-                    <td>PT. Freeport Smelter Gresik</td>
-                    <td>MMR GRESIK PROJECT</td>
-                    <td>Pipe, Mesin AMD</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <th scope="row">24</td>
-                    <td>PETROSEA TBk, PT</td>
-                    <td>PT. Freeport Smelter Gresik</td>
-                    <td>MMR GRESIK PROJECT</td>
-                    <td>Pipe, Equal Tee, Reducer, Elbow, Stub End, Gasket EPDM, Mesin AMD</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <th scope="row">25</td>
-                    <td>PETROSEA TBk, PT</td>
-                    <td>PT. Freeport Smelter Gresik</td>
-                    <td>MMR GRESIK PROJECT</td>
-                    <td>Pipe, Reducer HDPE, Elbow, Stub End, Backing Ring, Blind Flange, Gasket, Stud Bolt, Equal Tee</td>
-                    <td>2023</td>
-                </tr>
-                </tbody>
-              </table>
+                      <th scope="row">8</td>
+                      <td>ENERBA TEKNOLOGI, PT</td>
+                      <td></td>
+                      <td>Water Treatment</td>
+                      <td>Pipe, Elbow</td>
+                      <td>2020</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">9</td>
+                      <td>BAJA ABADI LESTARI, PT</td>
+                      <td>Wijaya Karya</td>
+                      <td>Bio Diesel</td>
+                      <td>Gate, Check dan Ball Valve</td>
+                      <td>2021</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">10</td>
+                      <td>SOUTHERN CHEMICALS & ENGINEERING, PT</td>
+                      <td>PT. Cargil</td>
+                      <td>Water Treatment</td>
+                      <td>Gate, Globe, Check dan Butterfly Valve</td>
+                      <td>2021</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">11</td>
+                      <td>ENERGI LIDAH API, PT</td>
+                      <td>PT. Industri Gula Glammore</td>
+                      <td></td>
+                      <td>Gate dan Globe Valve</td>
+                      <td>2021</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">12</td>
+                      <td>DWIMITRA EKATAMAN MANDIRI, PT</td>
+                      <td>Prometric Japa Co</td>
+                      <td>Fire Hydrant</td>
+                      <td>Gate Valve Resilient Seated 300PSI OS&Y Type with Flange</td>
+                      <td>2021</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">13</td>
+                      <td>TRIATAMA TIRTA AMNDIRI, PT</td>
+                      <td>Memiontec Indonesia</td>
+                      <td>Water Treatment Plant</td>
+                      <td>Plat Besi SS400</td>
+                      <td>2021</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">14</td>
+                      <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
+                      <td>Pertamina RU VI Balongan</td>
+                      <td>Turn Around</td>
+                      <td>Butterfly Valve</td>
+                      <td>2022</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">15</td>
+                      <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
+                      <td>Pertamina RU VI Balikpapan</td>
+                      <td>PENGADAAN GATE VALVE SOUR CRUDE BPP 1 TA 2024 LOG 1776/22K55 PR 100051030</td>
+                      <td>Gate Valve Solid Wedge</td>
+                      <td>2023</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">16</td>
+                      <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
+                      <td>Pertamina RU VI Balikpapan</td>
+                      <td>PENGADAAN VALVE CARRY OVER TA 2023 LOG 0161/23K55 PR 0100052173</td>
+                      <td>Gate Valve body A217 WCB</td>
+                      <td>2023</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">17</td>
+                      <td>LANCANG KUNING SUKSES, PT</td>
+                      <td>Pertamina RU III Plaju</td>
+                      <td>PENGADAAN UNTUK PERTAMINA RU III PLAJU</td>
+                      <td>Swing Check body A351 CF8 dan Gate Valve body A351 CF8</td>
+                      <td>2023</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">18</td>
+                      <td>PETROSEA TBk, PT</td>
+                      <td>PT. Freeport Smelter Gresik</td>
+                      <td>MMR GRESIK PROJECT</td>
+                      <td>Pipe, Stub End, Elbow, Gasket, Std Bolt</td>
+                      <td>2023</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">19</td>
+                      <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
+                      <td>Pertamina RU VI Balikpapan</td>
+                      <td>PENGADAAN GLOBE VALVE DAN CHECK VALVE SOUR CRUDE LOG 0147/23K55 PR 100051412</td>
+                      <td>Check Valve dan Globe Valve</td>
+                      <td>2023</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">20</td>
+                      <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
+                      <td>Pertamina RU VI Balikpapan</td>
+                      <td>PENGADAAN GATE VALVE SOUR CRUDE BPP 1 TA 2024 REF. LOG NO 1774/22K55 PR 100051055</td>
+                      <td>Gate Valve Solid Wedge</td>
+                      <td>2023</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">21</td>
+                      <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
+                      <td>Pertamina RU VI Balikpapan</td>
+                      <td>PENGADAAN MATERIAL VALVE TA 2024 REF. LOG 0143/23K55 PR 0100052021</td>
+                      <td>Globe Valve body A105, Check Valve body A216 WCB</td>
+                      <td>2023</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">22</td>
+                      <td>KILANG PERTAMINA INTERNASIONAL, PT</td>
+                      <td>Pertamina RU VI Balikpapan</td>
+                      <td>PENGADAAN GATE VALVE SOUR CRUDE BPP 1 TA 2024 LOG NO 1777/22K55 PR 100051051</td>
+                      <td>Gate Valve Solid Wedge</td>
+                      <td>2023</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">23</td>
+                      <td>PETROSEA TBk, PT</td>
+                      <td>PT. Freeport Smelter Gresik</td>
+                      <td>MMR GRESIK PROJECT</td>
+                      <td>Pipe, Mesin AMD</td>
+                      <td>2023</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">24</td>
+                      <td>PETROSEA TBk, PT</td>
+                      <td>PT. Freeport Smelter Gresik</td>
+                      <td>MMR GRESIK PROJECT</td>
+                      <td>Pipe, Equal Tee, Reducer, Elbow, Stub End, Gasket EPDM, Mesin AMD</td>
+                      <td>2023</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">25</td>
+                      <td>PETROSEA TBk, PT</td>
+                      <td>PT. Freeport Smelter Gresik</td>
+                      <td>MMR GRESIK PROJECT</td>
+                      <td>Pipe, Reducer HDPE, Elbow, Stub End, Backing Ring, Blind Flange, Gasket, Stud Bolt, Equal Tee</td>
+                      <td>2023</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
             </div>
           </div>
-          </div>
-        </div>
+        
 
         <div class="container section-title mt-5" data-aos="fade-up">
           <h2><?php echo $anscustomers; ?></h2>
         </div>
-        <div class="row">
-        <div class="col-lg-2 align-items-center"><img src="assets/adhikarya.png" class="img-fluid " alt=""></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/cikarang.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/elnusa.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/exxon.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/ikpt.png" class="img-fluid" alt="" width = 80%></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/montd.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/pertamina.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/petrosea.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/pgeo.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/pgn.png" class="img-fluid" alt="" width = "60%"></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/pln.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/pusri.png" class="img-fluid" alt="" width = "60%"></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/timah.png" class="img-fluid" alt=""></div>
-        <div class="col-lg-2 align-items-center"><img src="assets/wika.png" class="img-fluid" alt=""></div>
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/adhikarya.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/cikarang.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/elnusa.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/exxon.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/ikpt.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/montd.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/pertamina.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/petrosea.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/pgeo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/pln.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/pusri.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/timah.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/wika.png" class="img-fluid" alt=""></div>
+          </div>
         </div>
       </div>
     </section>
@@ -947,7 +951,7 @@ else {
   <footer id="footer" class="footer">
     <div class="container footer-top">
       <div class="row gy-4">
-        <div class="col-lg-2 align-items-center col-md-6 footer-about">
+        <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.php" class="d-flex align-items-center">
             <img src="assets/logo_ans.png" alt="" width="40%">
           </a>
@@ -986,7 +990,7 @@ else {
           </ul>
         </div>
 
-        <div class="col-lg-2 align-items-center col-md-12">
+        <div class="col-lg-4 col-md-12">
           <h4><?php echo $followus; ?></h4>
           <p><?php echo $followusexp; ?></p>
           <div class="social-links d-flex">
