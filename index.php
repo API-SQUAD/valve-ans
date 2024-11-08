@@ -64,7 +64,7 @@ error_reporting(0);
           <li><a href="#pc">
             <?php echo $pj; ?>
           </a></li>
-          <li class="dropdown"><a href="cast.html"><span>Product</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="product/cast.php"><span>Product</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li class="dropdown"><a href="cast.html"><span>ANS Cast Steel</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
