@@ -17,9 +17,9 @@
                 <div class="row gy-4">
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="services-list">
-                            <a href="cast.html" class="active">ANS Cast Steel</a>
-                            <a href="ceramic.html">ANS Ceramic</a>
-                            <a href="casting.html">ANS Forged Steel</a>
+                            <a href="cast.php" class="active">ANS Cast Steel</a>
+                            <a href="ceramic.php">ANS Ceramic</a>
+                            <a href="forged.php">ANS Forged Steel</a>
                         </div>
                         <h4>Oil & Gas /  Petrochemical / Powerplant / Mining</h4>
                         <hr>

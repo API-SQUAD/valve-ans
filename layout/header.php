@@ -26,18 +26,18 @@
     <header id="header" class="header d-flex align-items-center sticky-top" style="background-color: #5160b8;">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-        <a href="index.php" class="logo d-flex align-items-center me-auto">
+        <a href="../index.php" class="logo d-flex align-items-center me-auto">
             <img src="../assets/logo_ans.png" alt="">
         </a>
 
         <nav id="navmenu" class="navmenu">
             <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="index.php">About</a></li>
-            <li><a href="index.php">Services</a></li>
-            <li><a href="index.php">Gallery</a></li>
-            <li><a href="index.php">Certification</a></li>
-            <li><a href="index.php">Project & Customer</a></li>
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="../index.php">About</a></li>
+            <li><a href="../index.php">Services</a></li>
+            <li><a href="../index.php">Gallery</a></li>
+            <li><a href="../index.php">Certification</a></li>
+            <li><a href="../index.php">Project & Customer</a></li>
             <li class="dropdown"><a href="product.html"><span>Product</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                 <li class="dropdown"><a href="forging.html"><span>ANS Cast Steel</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -63,7 +63,7 @@
                 </li>
                 </ul>
             </li>
-            <li><a href="index.php">Contact</a></li>
+            <li><a href="../index.php">Contact</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
