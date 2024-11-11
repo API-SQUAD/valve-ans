@@ -207,7 +207,7 @@ error_reporting(0);
             <p><?php echo $aboutusexp; ?></p>
             <!-- <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a> -->
               <h3><?php echo $structure; ?></h3>
-              <img src="assets/struktur.png" alt="" width="100%">
+              <img src="assets/struktur.Jpg" alt="" width="100%">
           </div>
 
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
