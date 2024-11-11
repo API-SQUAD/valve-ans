@@ -524,30 +524,43 @@ error_reporting(0);
       </div>
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
-              <div class="text-center">
+              <div class="text-center portfolio-info">
                 <img src="assets/iso/iso_1.png" alt="" width="100%">
-                <h4>ISO 9001 - 2015</h4>
-                <h5>QFS Management System LLP</h5>
+                  <h4>ISO 19001 - 2015</h4>
+                  <h5>QFS Management System LLP</h5>
+                  <a href="assets/iso/iso_1.png" title="Certificate ISO 19001-2015" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
-              <div class="text-center">
+              <div class="text-center portfolio-info">
                 <img src="assets/iso/iso_2.png" alt="" width="100%">
                 <h4>ISO 14001 - 2015</h4>
                 <h5>QFS Management System LLP</h5>
+                <a href="assets/iso/iso_2.png" title="Certificate ISO 14001-2015" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
-              <div class="text-center">
+              <div class="text-center portfolio-info">
                 <img src="assets/iso/iso_3.png" alt="" width="100%">
                 <h4>ISO 45001 - 2018</h4>
                 <h5>QFS Management System LLP</h5>
+                <a href="assets/iso/iso_3.png" title="Certificate ISO 45001 - 2018" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="text-center portfolio-info">
+                <img src="assets/iso/iso_4.png" alt="" width="100%">
+                <h4>ISO 37001 - 2016</h4>
+                <h5>Anti-Bribery Management System</h5>
+                <a href="assets/iso/iso_4.png" title="ISO 37001 - 2016" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>  
               </div>
             </div>
           </div>
