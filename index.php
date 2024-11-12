@@ -628,9 +628,9 @@ error_reporting(0);
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="container section-title" data-aos="fade-up">
           <h2><?php echo $projectreferences; ?></h2>
-        <button onclick="slideUp('box');" class="custom-btn btn-12"><span>Click!</span><span>Read Less</span></button>
-        <button onclick="slideDown('box');" class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
-        <div id = "box">
+      <button onclick="slideDown('box');" class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+      <button onclick="slideUp('box');" class="custom-btn btn-12"><span>Click!</span><span>Read Less</span></button>
+      <div id = "box">
           <div class="row">
             <div class="col-lg-12 pt-4 pt-lg-0 content">
               <div class="skills-content skills-animation">
@@ -853,7 +853,7 @@ error_reporting(0);
             </div>
             </div>
           </div>
-        
+          
 
         <div class="container section-title mt-5" data-aos="fade-up">
           <h2><?php echo $anscustomers; ?></h2>
@@ -984,7 +984,7 @@ error_reporting(0);
             <li> <i class="bi bi-chevron-right"></i><a href="#about"><?php echo $about_foot; ?></a></li>
             <li> <i class="bi bi-chevron-right"></i><a href="#services"><?php echo $services_foot; ?></a></li>
             <li> <i class="bi bi-chevron-right"></i><a href="#gallery"><?php echo $gallery_foot; ?></a></li>
-            <li> <i class="bi bi-chevron-right"></i><a href="#certi">C<?php echo $certification_foot; ?></a></li>
+            <li> <i class="bi bi-chevron-right"></i><a href="#certi"><?php echo $certification_foot; ?></a></li>
             <li> <i class="bi bi-chevron-right"></i><a href="#pc"><?php echo $project_customers; ?></a></li>
           </ul>
         </div>
@@ -999,7 +999,7 @@ error_reporting(0);
             <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $linpfavalve; ?></a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $conwater; ?></a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#"><?php echo $instrumentation; ?></a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Petrochemical Valve</a></li>
+            
           </ul>
         </div>
 
