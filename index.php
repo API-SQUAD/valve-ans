@@ -628,8 +628,8 @@ error_reporting(0);
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="container section-title" data-aos="fade-up">
           <h2><?php echo $projectreferences; ?></h2>
-      <button onclick="slideDown('box');" class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
-      <button onclick="slideUp('box');" class="custom-btn btn-12"><span>Click!</span><span>Read Less</span></button>
+      <button onclick="slideDown('box');" class="custom-btn"><span>Read More</span></button>
+      <button onclick="slideUp('box');" class="custom-btn"><span>Read Less</span></button>
       <div id = "box">
           <div class="row">
             <div class="col-lg-12 pt-4 pt-lg-0 content">
