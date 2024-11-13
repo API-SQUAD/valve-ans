@@ -23,7 +23,7 @@
                         </div>
                         <hr>
                         <p>Catalog Product ANS Ceramic Steel</p>
-                        <button class="custom-btn btn-11" onclick="JavaScript:window.location.href='download_cast.php?file=ceramic_stell.zip';">CATALOG<div class="dot"></div></button>
+                        <button class="custom-btn" onclick="JavaScript:window.location.href='download_cast.php?file=ceramic_stell.zip';">CATALOG<div class="dot"></div></button>
                     </div>
 
                     <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">

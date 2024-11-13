@@ -24,7 +24,7 @@
                         <h4>Oil & Gas /  Petrochemical / Powerplant / Mining</h4>
                         <hr>
                         <p>Catalog Product ANS Cast Steel</p>
-                        <button class="custom-btn btn-11" onclick="JavaScript:window.location.href='download_cast.php?file=cast.pdf';">CATALOG<div class="dot"></div></button>
+                        <button class="custom-btn"  onclick="JavaScript:window.location.href='download_cast.php?file=cast.pdf';">CATALOG<div class="dot"></div></button>
                     </div>
 
                     <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
