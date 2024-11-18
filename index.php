@@ -580,6 +580,7 @@ error_reporting(0);
               <h3 class="mt-4">
                 TKDN FORGING <br>
                 CL 800 NPT
+                <a href="assets/certi/certi_1.png" title="TKDN FORGING" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>  
               </h3>
             </div>
           </div>
@@ -589,6 +590,7 @@ error_reporting(0);
               <h3 class="mt-4">
                 TKDN FORGING CL<br>
                 800, 1500 & 2500 SW
+                <a href="assets/certi/certi_2.png" title="TKDN FORGING CL" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>  
               </h3>
             </div>
           </div>
@@ -599,6 +601,7 @@ error_reporting(0);
                 TKDN GATE VALVE <br>
                 ( Bronze )
               </h3>
+              <a href="assets/certi/certi_3.png" title="TKDN GATE VALVE" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>  
             </div>
           </div>
           <div class="col-lg-2" data-aos="zoom-in" data-aos-delay="100"></div>
@@ -609,6 +612,7 @@ error_reporting(0);
                 TKDN GATE VALVE <br>
                 ( Brass )
               </h3>
+              <a href="assets/certi/certi_4.png" title="TKDN GATE VALVE ( Brass )" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>  
             </div>
           </div>
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
@@ -617,6 +621,7 @@ error_reporting(0);
               <h3 class="mt-4">
                 TKDN CERAMIC VALVE
               </h3>
+              <a href="assets/certi/certi_5.png" title="TKDN CERAMIC VALVE" data-gallery="portfolio-gallery-manu" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>  
             </div>
           </div>
           <div class="col-lg-2 align-items-center" data-aos="zoom-in" data-aos-delay="100"></div>
